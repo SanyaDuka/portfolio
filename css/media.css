@@ -1,0 +1,18 @@
+@media(max-width: 1140px)
+{
+   header h1
+  {
+    font-size: 60px;
+  }
+  .conteiner
+  {
+    padding-bottom: 50px;
+  }
+}
+@media(max-width:900px)
+{
+  .wrap-footer
+  {
+    flex-wrap: wrap-reverse;
+  }
+}
