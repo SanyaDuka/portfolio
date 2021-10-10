@@ -84,6 +84,7 @@ header p
 .card
 {
   max-width: 540px;
+  height: 369px;
   background-color: #fff;
   padding: 20px;
   margin-bottom: 30px;
