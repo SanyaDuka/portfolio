@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
 
 <body>
   <header id="header">
-    <nav>
+    <nav class="wow animate__swing">
       <ul>
         <li><a href="#">Главная</a></li>
         <li><a href="#portfolio">Портфолио</a></li>
@@ -41,7 +42,7 @@
     <section id="portfolio">
       <div class="conteiner">
         <h2>Портфолио</h2>
-        <div class="portfolio-wtiter">
+        <div class="portfolio-wtiter wow animate__bounce">
           <a href="Work1.html">
             <div class="card">
               <img src="img/img1.jpg" alt="Фото 1">
@@ -101,6 +102,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js"
